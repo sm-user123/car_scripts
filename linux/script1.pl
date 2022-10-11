@@ -4,4 +4,5 @@ my @flist = readdir(d);
 closedir(d);
 foreach my $f (@flist) {
   print "\$file = $f\n";
+  print "New line";
 }
